@@ -1,0 +1,146 @@
+{
+  "title": "MARINA AI (RVC 200 Epochs)",
+  "author": {
+    "name": "moonieyunie",
+    "discordUserId": "740330227145637928"
+  },
+  "md5": "82e4d5c26c64f897b786581ad32fc6fd",
+  "uploadedAt": "2023-05-20T19:33:51.833Z",
+  "weightsLink": "https://www.weights.gg/models/clm73gqya2dfjcctc45albqrz",
+  "id": "clm73gqya2dfjcctc45albqrz",
+  "type": "v1",
+  "tags": [
+    "RVC",
+    "Artist",
+    "English"
+  ],
+  "description": "Dataset and trained by me! (I used most of the samples from the electra heart era so it might not sound like how she sounds now.) https://mega.nz/file/TiQGFbCA#VoziNIUh-wW-Y3zMrss6Nq8digWalY1OnDKcQ_02Fqk\nONLY INCLUDES THE .pth FILE, use this colab to inference it https://colab.research.google.com/drive/19FD5ShvTiEvX4F2IyEohyXFaImyputue?usp=sharing&authuser=1#scrollTo=UG3XpUwEomUz",
+  "samples": [],
+  "files": [
+    {
+      "name": "model.pth",
+      "size": 55027130,
+      "md5": "82e4d5c26c64f897b786581ad32fc6fd"
+    }
+  ],
+  "torchMetadata": {
+    "config": {
+      "spec_channels": 1025,
+      "segment_size": 32,
+      "inter_channels": 192,
+      "hidden_channels": 192,
+      "filter_channels": 768,
+      "n_heads": 2,
+      "n_layers": 6,
+      "kernel_size": 3,
+      "p_dropout": 0,
+      "resblock": "1",
+      "resblock_kernel_sizes": [
+        3,
+        7,
+        11
+      ],
+      "resblock_dilation_sizes": [
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          1,
+          3,
+          5
+        ]
+      ],
+      "upsample_rates": [
+        10,
+        10,
+        2,
+        2
+      ],
+      "upsample_initial_channel": 512,
+      "upsample_kernel_sizes": [
+        16,
+        16,
+        4,
+        4
+      ],
+      "emb_channels": null,
+      "spk_embed_dim": 109,
+      "gin_channels": 256,
+      "sr": 40000
+    },
+    "f0": 1,
+    "version": "v1",
+    "extra_info": {
+      "config": [
+        1025,
+        32,
+        192,
+        192,
+        768,
+        2,
+        6,
+        3,
+        0,
+        "1",
+        [
+          3,
+          7,
+          11
+        ],
+        [
+          [
+            1,
+            3,
+            5
+          ],
+          [
+            1,
+            3,
+            5
+          ],
+          [
+            1,
+            3,
+            5
+          ]
+        ],
+        [
+          10,
+          10,
+          2,
+          2
+        ],
+        512,
+        [
+          16,
+          16,
+          4,
+          4
+        ],
+        109,
+        256,
+        40000
+      ],
+      "info": "200epoch",
+      "sr": "40k",
+      "f0": 1
+    }
+  },
+  "url": "https://huggingface.co/QuickWick/Music-AI-Voices/resolve/main/MARINA%20(RVC)%20200%20Epoch/MARINA%20(RVC)%20200%20Epoch.zip",
+  "urls": [
+    "https://mega.nz/file/TiQGFbCA#VoziNIUh-wW-Y3zMrss6Nq8digWalY1OnDKcQ_02Fqk",
+    "https://colab.research.google.com/drive/19FD5ShvTiEvX4F2IyEohyXFaImyputue?usp=sharing&authuser=1#scrollTo=UG3XpUwEomUz",
+    "https://huggingface.co/QuickWick/Music-AI-Voices/resolve/main/MARINA%20(RVC)%20200%20Epoch/MARINA%20(RVC)%20200%20Epoch.zip",
+    "https://colab.research.google.com/drive/19FD5ShvTiEvX4F2IyEohyXFaImyputue?authuser=1&usp=sharing#scrollTo=UG3XpUwEomUz"
+  ],
+  "originalFileList": [
+    "MarinaAI.pth"
+  ]
+}
